@@ -26,7 +26,7 @@ end
 
 def full?(board)
   board.detect do |element|
-    if (element == " " || element == "")
+    if (element == " " || element == " ")
       return false
     end
   end
